@@ -1,5 +1,5 @@
 const Configuration = require('./Configuration')
-const DiscordManager = require('./discord/DiscordManager')
+const DiscordManager = require('./discord/discordManager')
 const OpenAiManager = require('./openAI/openAiManager')
 const Logger = require('./Logger')
 
