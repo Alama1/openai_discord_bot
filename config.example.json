@@ -1,0 +1,12 @@
+{
+  "discord": {
+    "token": null,
+    "channel": null,
+    "commandRole": null,
+    "guildID": null,
+    "ownerId": null
+  },
+  "openai": {
+    "apiKey": null
+  }
+}

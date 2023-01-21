@@ -1,0 +1,24 @@
+{
+  "name": "openai_discord_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.4.0",
+    "@types/node": "^18.11.18",
+    "axios": "^1.2.3",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0"
+  },
+  "devDependencies": {
+    "@discordjs/rest": "^1.5.0",
+    "discord-api-types": "^0.37.28"
+  }
+}
