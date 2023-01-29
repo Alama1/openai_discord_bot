@@ -64,7 +64,7 @@ class InteractionHandler {
     }
 
     canInteract(interaction) {
-        return (this.isCommander(interaction) || this.isOwner(interaction) || this.allowedCommands(interaction))
+        return (this.isCommander(interaction) || this.isOwner(interaction))
     }
 
     isCommander(interaction) {
