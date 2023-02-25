@@ -16,6 +16,9 @@ class Configuration {
         },
         openai: {
             apiKey: null,
+        },
+        express: {
+            port: null
         }
     }
 
