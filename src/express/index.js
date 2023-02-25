@@ -20,6 +20,7 @@ class ExpressManager {
     }
     async lobbyClosedAlert(request, response) {
         const username = request.body.username
+        console.log('request from' + username)
         let userID
         switch (true) {
             case username === 'Alamai':
